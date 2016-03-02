@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F4BCD0EADBDED6B0615417 /* libPods-CellEmbedTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 571BFB89545C77824E531EA8 /* libPods-CellEmbedTableView.a */; };
+		699E41251C85E229005B8F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41241C85E229005B8F87 /* main.m */; };
+		699E41281C85E229005B8F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41271C85E229005B8F87 /* AppDelegate.m */; };
+		699E412B1C85E229005B8F87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E412A1C85E229005B8F87 /* ViewController.m */; };
+		699E412E1C85E229005B8F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699E412C1C85E229005B8F87 /* Main.storyboard */; };
+		699E41301C85E229005B8F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699E412F1C85E229005B8F87 /* Assets.xcassets */; };
+		699E41331C85E229005B8F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 699E41311C85E229005B8F87 /* LaunchScreen.storyboard */; };
+		699E413E1C85E229005B8F87 /* CellEmbedTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E413D1C85E229005B8F87 /* CellEmbedTableViewTests.m */; };
+		699E41491C85E229005B8F87 /* CellEmbedTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41481C85E229005B8F87 /* CellEmbedTableViewUITests.m */; };
+		699E41581C85E24C005B8F87 /* HYBTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41571C85E24C005B8F87 /* HYBTestCell.m */; };
+		699E41591C85E24C005B8F87 /* HYBTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41571C85E24C005B8F87 /* HYBTestCell.m */; };
+		699E415A1C85E24C005B8F87 /* HYBTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41571C85E24C005B8F87 /* HYBTestCell.m */; };
+		699E415D1C85E25D005B8F87 /* HYBCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E415C1C85E25D005B8F87 /* HYBCommentCell.m */; };
+		699E415E1C85E25D005B8F87 /* HYBCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E415C1C85E25D005B8F87 /* HYBCommentCell.m */; };
+		699E415F1C85E25D005B8F87 /* HYBCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E415C1C85E25D005B8F87 /* HYBCommentCell.m */; };
+		699E41621C85E40A005B8F87 /* HYBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41611C85E40A005B8F87 /* HYBTestModel.m */; };
+		699E41631C85E40A005B8F87 /* HYBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41611C85E40A005B8F87 /* HYBTestModel.m */; };
+		699E41641C85E40A005B8F87 /* HYBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41611C85E40A005B8F87 /* HYBTestModel.m */; };
+		699E41671C85E417005B8F87 /* HYBCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41661C85E417005B8F87 /* HYBCommentModel.m */; };
+		699E41681C85E417005B8F87 /* HYBCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41661C85E417005B8F87 /* HYBCommentModel.m */; };
+		699E41691C85E417005B8F87 /* HYBCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 699E41661C85E417005B8F87 /* HYBCommentModel.m */; };
+		699E416B1C85E5BC005B8F87 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E416A1C85E5BC005B8F87 /* head.png */; };
+		699E416C1C85E5BC005B8F87 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E416A1C85E5BC005B8F87 /* head.png */; };
+		699E416D1C85E5BC005B8F87 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E416A1C85E5BC005B8F87 /* head.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		699E413A1C85E229005B8F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699E41181C85E229005B8F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699E411F1C85E229005B8F87;
+			remoteInfo = CellEmbedTableView;
+		};
+		699E41451C85E229005B8F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699E41181C85E229005B8F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699E411F1C85E229005B8F87;
+			remoteInfo = CellEmbedTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571BFB89545C77824E531EA8 /* libPods-CellEmbedTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CellEmbedTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD9699F59289F3CE169E440 /* Pods-CellEmbedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellEmbedTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CellEmbedTableView/Pods-CellEmbedTableView.release.xcconfig"; sourceTree = "<group>"; };
+		699E41201C85E229005B8F87 /* CellEmbedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellEmbedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		699E41241C85E229005B8F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		699E41261C85E229005B8F87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		699E41271C85E229005B8F87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		699E41291C85E229005B8F87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		699E412A1C85E229005B8F87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		699E412D1C85E229005B8F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		699E412F1C85E229005B8F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		699E41321C85E229005B8F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		699E41341C85E229005B8F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699E41391C85E229005B8F87 /* CellEmbedTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellEmbedTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		699E413D1C85E229005B8F87 /* CellEmbedTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellEmbedTableViewTests.m; sourceTree = "<group>"; };
+		699E413F1C85E229005B8F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699E41441C85E229005B8F87 /* CellEmbedTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellEmbedTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		699E41481C85E229005B8F87 /* CellEmbedTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellEmbedTableViewUITests.m; sourceTree = "<group>"; };
+		699E414A1C85E229005B8F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699E41561C85E24C005B8F87 /* HYBTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBTestCell.h; sourceTree = "<group>"; };
+		699E41571C85E24C005B8F87 /* HYBTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBTestCell.m; sourceTree = "<group>"; };
+		699E415B1C85E25D005B8F87 /* HYBCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBCommentCell.h; sourceTree = "<group>"; };
+		699E415C1C85E25D005B8F87 /* HYBCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBCommentCell.m; sourceTree = "<group>"; };
+		699E41601C85E40A005B8F87 /* HYBTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBTestModel.h; sourceTree = "<group>"; };
+		699E41611C85E40A005B8F87 /* HYBTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBTestModel.m; sourceTree = "<group>"; };
+		699E41651C85E417005B8F87 /* HYBCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBCommentModel.h; sourceTree = "<group>"; };
+		699E41661C85E417005B8F87 /* HYBCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBCommentModel.m; sourceTree = "<group>"; };
+		699E416A1C85E5BC005B8F87 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head.png; path = ../../../Desktop/head.png; sourceTree = "<group>"; };
+		77BF1953FA4D6CA77F22C0D9 /* Pods-CellEmbedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CellEmbedTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CellEmbedTableView/Pods-CellEmbedTableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		699E411D1C85E229005B8F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F4BCD0EADBDED6B0615417 /* libPods-CellEmbedTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E41361C85E229005B8F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E41411C85E229005B8F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0979032DA59FB0916937741C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77BF1953FA4D6CA77F22C0D9 /* Pods-CellEmbedTableView.debug.xcconfig */,
+				5AD9699F59289F3CE169E440 /* Pods-CellEmbedTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		641B44444AF6CA97B749372D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571BFB89545C77824E531EA8 /* libPods-CellEmbedTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		699E41171C85E229005B8F87 = {
+			isa = PBXGroup;
+			children = (
+				699E41221C85E229005B8F87 /* CellEmbedTableView */,
+				699E413C1C85E229005B8F87 /* CellEmbedTableViewTests */,
+				699E41471C85E229005B8F87 /* CellEmbedTableViewUITests */,
+				699E41211C85E229005B8F87 /* Products */,
+				0979032DA59FB0916937741C /* Pods */,
+				641B44444AF6CA97B749372D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		699E41211C85E229005B8F87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				699E41201C85E229005B8F87 /* CellEmbedTableView.app */,
+				699E41391C85E229005B8F87 /* CellEmbedTableViewTests.xctest */,
+				699E41441C85E229005B8F87 /* CellEmbedTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699E41221C85E229005B8F87 /* CellEmbedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				699E416A1C85E5BC005B8F87 /* head.png */,
+				699E41261C85E229005B8F87 /* AppDelegate.h */,
+				699E41271C85E229005B8F87 /* AppDelegate.m */,
+				699E41291C85E229005B8F87 /* ViewController.h */,
+				699E412A1C85E229005B8F87 /* ViewController.m */,
+				699E412C1C85E229005B8F87 /* Main.storyboard */,
+				699E412F1C85E229005B8F87 /* Assets.xcassets */,
+				699E41311C85E229005B8F87 /* LaunchScreen.storyboard */,
+				699E41341C85E229005B8F87 /* Info.plist */,
+				699E41231C85E229005B8F87 /* Supporting Files */,
+				699E41561C85E24C005B8F87 /* HYBTestCell.h */,
+				699E41571C85E24C005B8F87 /* HYBTestCell.m */,
+				699E415B1C85E25D005B8F87 /* HYBCommentCell.h */,
+				699E415C1C85E25D005B8F87 /* HYBCommentCell.m */,
+				699E41601C85E40A005B8F87 /* HYBTestModel.h */,
+				699E41611C85E40A005B8F87 /* HYBTestModel.m */,
+				699E41651C85E417005B8F87 /* HYBCommentModel.h */,
+				699E41661C85E417005B8F87 /* HYBCommentModel.m */,
+			);
+			path = CellEmbedTableView;
+			sourceTree = "<group>";
+		};
+		699E41231C85E229005B8F87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				699E41241C85E229005B8F87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		699E413C1C85E229005B8F87 /* CellEmbedTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				699E413D1C85E229005B8F87 /* CellEmbedTableViewTests.m */,
+				699E413F1C85E229005B8F87 /* Info.plist */,
+			);
+			path = CellEmbedTableViewTests;
+			sourceTree = "<group>";
+		};
+		699E41471C85E229005B8F87 /* CellEmbedTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				699E41481C85E229005B8F87 /* CellEmbedTableViewUITests.m */,
+				699E414A1C85E229005B8F87 /* Info.plist */,
+			);
+			path = CellEmbedTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699E411F1C85E229005B8F87 /* CellEmbedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699E414D1C85E229005B8F87 /* Build configuration list for PBXNativeTarget "CellEmbedTableView" */;
+			buildPhases = (
+				D1EEFCAF27ED1200C76903F3 /* Check Pods Manifest.lock */,
+				699E411C1C85E229005B8F87 /* Sources */,
+				699E411D1C85E229005B8F87 /* Frameworks */,
+				699E411E1C85E229005B8F87 /* Resources */,
+				1765D9D2F67A67776F63F9E1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellEmbedTableView;
+			productName = CellEmbedTableView;
+			productReference = 699E41201C85E229005B8F87 /* CellEmbedTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		699E41381C85E229005B8F87 /* CellEmbedTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699E41501C85E229005B8F87 /* Build configuration list for PBXNativeTarget "CellEmbedTableViewTests" */;
+			buildPhases = (
+				699E41351C85E229005B8F87 /* Sources */,
+				699E41361C85E229005B8F87 /* Frameworks */,
+				699E41371C85E229005B8F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699E413B1C85E229005B8F87 /* PBXTargetDependency */,
+			);
+			name = CellEmbedTableViewTests;
+			productName = CellEmbedTableViewTests;
+			productReference = 699E41391C85E229005B8F87 /* CellEmbedTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		699E41431C85E229005B8F87 /* CellEmbedTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699E41531C85E229005B8F87 /* Build configuration list for PBXNativeTarget "CellEmbedTableViewUITests" */;
+			buildPhases = (
+				699E41401C85E229005B8F87 /* Sources */,
+				699E41411C85E229005B8F87 /* Frameworks */,
+				699E41421C85E229005B8F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699E41461C85E229005B8F87 /* PBXTargetDependency */,
+			);
+			name = CellEmbedTableViewUITests;
+			productName = CellEmbedTableViewUITests;
+			productReference = 699E41441C85E229005B8F87 /* CellEmbedTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		699E41181C85E229005B8F87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangyibiao;
+				TargetAttributes = {
+					699E411F1C85E229005B8F87 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					699E41381C85E229005B8F87 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 699E411F1C85E229005B8F87;
+					};
+					699E41431C85E229005B8F87 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 699E411F1C85E229005B8F87;
+					};
+				};
+			};
+			buildConfigurationList = 699E411B1C85E229005B8F87 /* Build configuration list for PBXProject "CellEmbedTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 699E41171C85E229005B8F87;
+			productRefGroup = 699E41211C85E229005B8F87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699E411F1C85E229005B8F87 /* CellEmbedTableView */,
+				699E41381C85E229005B8F87 /* CellEmbedTableViewTests */,
+				699E41431C85E229005B8F87 /* CellEmbedTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699E411E1C85E229005B8F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E41331C85E229005B8F87 /* LaunchScreen.storyboard in Resources */,
+				699E41301C85E229005B8F87 /* Assets.xcassets in Resources */,
+				699E412E1C85E229005B8F87 /* Main.storyboard in Resources */,
+				699E416B1C85E5BC005B8F87 /* head.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E41371C85E229005B8F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E416C1C85E5BC005B8F87 /* head.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E41421C85E229005B8F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E416D1C85E5BC005B8F87 /* head.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1765D9D2F67A67776F63F9E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CellEmbedTableView/Pods-CellEmbedTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1EEFCAF27ED1200C76903F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699E411C1C85E229005B8F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E415D1C85E25D005B8F87 /* HYBCommentCell.m in Sources */,
+				699E41671C85E417005B8F87 /* HYBCommentModel.m in Sources */,
+				699E412B1C85E229005B8F87 /* ViewController.m in Sources */,
+				699E41281C85E229005B8F87 /* AppDelegate.m in Sources */,
+				699E41251C85E229005B8F87 /* main.m in Sources */,
+				699E41581C85E24C005B8F87 /* HYBTestCell.m in Sources */,
+				699E41621C85E40A005B8F87 /* HYBTestModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E41351C85E229005B8F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E41681C85E417005B8F87 /* HYBCommentModel.m in Sources */,
+				699E413E1C85E229005B8F87 /* CellEmbedTableViewTests.m in Sources */,
+				699E41631C85E40A005B8F87 /* HYBTestModel.m in Sources */,
+				699E415E1C85E25D005B8F87 /* HYBCommentCell.m in Sources */,
+				699E41591C85E24C005B8F87 /* HYBTestCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E41401C85E229005B8F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E41691C85E417005B8F87 /* HYBCommentModel.m in Sources */,
+				699E41491C85E229005B8F87 /* CellEmbedTableViewUITests.m in Sources */,
+				699E41641C85E40A005B8F87 /* HYBTestModel.m in Sources */,
+				699E415F1C85E25D005B8F87 /* HYBCommentCell.m in Sources */,
+				699E415A1C85E24C005B8F87 /* HYBTestCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699E413B1C85E229005B8F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699E411F1C85E229005B8F87 /* CellEmbedTableView */;
+			targetProxy = 699E413A1C85E229005B8F87 /* PBXContainerItemProxy */;
+		};
+		699E41461C85E229005B8F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699E411F1C85E229005B8F87 /* CellEmbedTableView */;
+			targetProxy = 699E41451C85E229005B8F87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		699E412C1C85E229005B8F87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699E412D1C85E229005B8F87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		699E41311C85E229005B8F87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699E41321C85E229005B8F87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		699E414B1C85E229005B8F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		699E414C1C85E229005B8F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		699E414E1C85E229005B8F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BF1953FA4D6CA77F22C0D9 /* Pods-CellEmbedTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CellEmbedTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CellEmbedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		699E414F1C85E229005B8F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD9699F59289F3CE169E440 /* Pods-CellEmbedTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CellEmbedTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CellEmbedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		699E41511C85E229005B8F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CellEmbedTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CellEmbedTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellEmbedTableView.app/CellEmbedTableView";
+			};
+			name = Debug;
+		};
+		699E41521C85E229005B8F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CellEmbedTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CellEmbedTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CellEmbedTableView.app/CellEmbedTableView";
+			};
+			name = Release;
+		};
+		699E41541C85E229005B8F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CellEmbedTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CellEmbedTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CellEmbedTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		699E41551C85E229005B8F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CellEmbedTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CellEmbedTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CellEmbedTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		699E411B1C85E229005B8F87 /* Build configuration list for PBXProject "CellEmbedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E414B1C85E229005B8F87 /* Debug */,
+				699E414C1C85E229005B8F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699E414D1C85E229005B8F87 /* Build configuration list for PBXNativeTarget "CellEmbedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E414E1C85E229005B8F87 /* Debug */,
+				699E414F1C85E229005B8F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699E41501C85E229005B8F87 /* Build configuration list for PBXNativeTarget "CellEmbedTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E41511C85E229005B8F87 /* Debug */,
+				699E41521C85E229005B8F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699E41531C85E229005B8F87 /* Build configuration list for PBXNativeTarget "CellEmbedTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E41541C85E229005B8F87 /* Debug */,
+				699E41551C85E229005B8F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 699E41181C85E229005B8F87 /* Project object */;
+}
