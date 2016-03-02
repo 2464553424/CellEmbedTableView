@@ -1,0 +1,2 @@
+# CellEmbedTableView
+学习在cell中嵌套Tableview如何动态自动计算行高，自动适应内容的显示
